@@ -7,12 +7,12 @@ DevOps is all about automating and streamlining the software development lifecyc
 
 How the DevOps model flow works:
 		
- __________	(Delivery Pipeline)		 _________
-|	   |  -------->  ------->  --------->   |	  |
+ __________	       (Delivery Pipeline)		     _________
+|	       |  -------->  ------->  --------->   |	      |
 | Computer |    Build     Test      Release     |Customers|
-|	   |   <-------       <----------       |	  |
-|__________|	Plan		Monitor		|_________|
-    _||_		(Feedback Loop) 	    _||_
+|	       |   <-------       <----------       |	      |
+|__________|	Plan		Monitor		        |_________|
+    _||_		   (Feedback Loop) 	               _||_
 
 
 Stages of DevOps:
@@ -75,6 +75,7 @@ Deploy : Using Infrastructure-as-Code (IaC) tools like Terraform, the necessary 
 Operate : Once deployed, the software is available for users. Tools like Chef help manage the configuration and ongoing deployment of the system to ensure it operates smoothly.
 
 Monitor : This phase involves observing how the software is performing in the real world. Data about user behaviour and application performance is collected to identify any issues or bottlenecks. By monitoring the system, the team can quickly spot and fix problems that may affect performance.
+
 
 
 
