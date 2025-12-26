@@ -1,0 +1,85 @@
+DevOps Basics
+
+What is DevOps ?
+
+DevOps is all about automating and streamlining the software development lifecycle so that code moves from development to production quickly, reliably, and securely.
+
+
+How the DevOps model flow works:
+		
+ __________	(Delivery Pipeline)		 _________
+|	   |  -------->  ------->  --------->   |	  |
+| Computer |    Build     Test      Release     |Customers|
+|	   |   <-------       <----------       |	  |
+|__________|	Plan		Monitor		|_________|
+    _||_		(Feedback Loop) 	    _||_
+
+
+Stages of DevOps:
+
+Build Stage :  
+	Developers write and organize code, The system automatically compiles and packages the code into a deployable format.
+
+	Common Tools: Git, Jenkins, GitLab CI/CD, Gradle, Maven
+
+
+2. Test Stage :
+	The software undergoes thorough testing to catch bugs and security risks before release.
+
+	Different testing methods include:
+	(a) Unit Testing: Checks individual pieces of code.
+	(b) Integration Testing: Ensures different parts of the system work together.
+	(c) Performance Testing: Measures speed and scalability.
+	(d) Security Testing: Identifies potential vulnerabilities.
+
+	Automated tests help ensure the software is stable before moving forward.
+
+	Common Tools: Selenium, JUnit, TestNG, SonarQube.
+
+3. Release Stage :
+	The software is deployed in a staging environment to simulate real-world conditions.If everything checks out, the software is rolled out 	to production using deployment strategies like:
+
+	Blue-Green Deployment: Two identical environments switch traffic for a seamless update.
+	Canary Deployment: A small percentage of users get the new version first, ensuring safety.
+	Rolling Updates: The update is gradually pushed out to all users.
+
+	Common Tools: Docker, Kubernetes, Ansible, Helm, ArgoCD.
+
+
+4. Continuous Feedback Loop :
+	A key aspect of DevOps is learning from real-world performance and using that feedback to improve future releases.
+
+	(1) Monitoring & Logging: Track system performance and detect errors.
+	(2) User Feedback: Gather insights from customers to enhance features.
+	(3) Incident Response: Alert systems notify teams of failures for quick fixes.
+	(4) Process Improvement: Teams analyze past releases to optimize automation and workflow.
+
+	Common Tools: Prometheus, Grafana, ELK Stack, Datadog, New Relic.
+
+
+
+DevOps Life-Cycle
+
+Plan : In This phase, Teams create a plan that aligns the project with business goals and ensures the right results are delivered.
+
+Code : In this phase, developers write the actual code for the software. Tools like Git help manage the code, making sure that the code is well-organized and free from security issues or bad coding practices.
+
+Build : Once the code is written, it is submitted to a central system using tools like Jenkins. This step ensures the code is compiled, and all components are integrated together smoothly.
+
+Test : The software is then tested to ensure it works properly. This includes different types of tests like security, performance, and user acceptance. Tools like JUnit and Selenium are used to automate these tests and verify the software’s integrity.
+
+Release : After testing, the software is ready to be released to production. The DevOps team ensures that all checks are passed and then sends the latest version to the production environment.
+
+Deploy : Using Infrastructure-as-Code (IaC) tools like Terraform, the necessary infrastructure (servers, networks, etc.) is automatically created. Once the infrastructure is set up, the code is deployed to various environments in an automated and repeatable way.
+
+Operate : Once deployed, the software is available for users. Tools like Chef help manage the configuration and ongoing deployment of the system to ensure it operates smoothly.
+
+Monitor : This phase involves observing how the software is performing in the real world. Data about user behaviour and application performance is collected to identify any issues or bottlenecks. By monitoring the system, the team can quickly spot and fix problems that may affect performance.
+
+
+
+
+
+
+
+
