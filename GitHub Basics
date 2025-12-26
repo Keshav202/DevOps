@@ -1,0 +1,129 @@
+What is Git?
+Git is a version control system.
+
+It helps:
+Track changes in code
+Go back to old versions
+Work safely without losing code
+Collaborate with others
+
+Example:
+If your project breaks today, Git lets you go back to yesterday’s working code.
+
+What is GitHub?
+GitHub is an online platform that stores Git repositories.
+
+Git = tool (installed on your computer)
+GitHub = cloud storage + collaboration website
+
+Used for:
+Storing projects online
+Sharing code
+Teamwork
+Showing projects to recruiters
+
+Key Git Terms (Very Important)
+Term	Meaning
+Repository (Repo)	Project folder tracked by Git
+Commit	Saved snapshot of changes
+Branch	Parallel version of code
+Master/Main	Default branch
+Clone	Copy repo from GitHub to local system
+Push	Upload local code to GitHub
+Pull	Download latest code from GitHub
+Merge	Combine branches
+Staging Area	Area before commit
+
+Git Workflow:
+mathematica
+Copy code
+Working Directory → Staging Area → Repository → GitHub
+
+Commands:
+Edit file
+git add
+git commit
+git push
+
+Basic Git Commands:
+:- Check Git version
+bash
+Copy code
+git --version
+:- Configure Git (One time)
+bash
+Copy code
+git config --global user.name "Keshav Kumar"
+git config --global user.email "youremail@gmail.com"
+:- Initialize Git repo
+bash
+Copy code
+git init
+:- Check file status
+bash
+Copy code
+git status
+:- Add files to staging
+bash
+Copy code
+git add file.txt
+git add .
+:- Commit changes
+bash
+Copy code
+git commit -m "First commit"
+
+GitHub Basics (Step-by-Step)
+:- Create GitHub Repository
+Go to github.com
+Click New Repository
+Give name → Create
+
+:- Connect Local Repo to GitHub
+bash
+Copy code
+git remote add origin https://github.com/username/repo-name.git
+:- Push code to GitHub
+bash
+Copy code
+git branch -M main
+git push -u origin main
+
+Clone, Pull & Push
+:- Clone Repo
+bash
+Copy code
+git clone repo-url
+:- Pull Latest Changes
+bash
+Copy code
+git pull origin main
+:- Push Changes
+bash
+Copy code
+git push origin main
+
+Branching Basics
+:- Create new branch
+bash
+Copy code
+git branch feature1
+:- Switch branch
+bash
+Copy code
+git checkout feature1
+:- Merge branch
+bash
+Copy code
+git checkout main
+git merge feature1
+
+Why Git & GitHub Are Important:- 
+Required for:
+Projects
+Internships
+Placements
+Open-source
+Team work
+Resume & portfolio
+
