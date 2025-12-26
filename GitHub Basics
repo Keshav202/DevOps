@@ -47,30 +47,23 @@ git push
 
 Basic Git Commands:
 :- Check Git version
-bash
-Copy code
+
 git --version
 :- Configure Git (One time)
-bash
-Copy code
+
 git config --global user.name "Keshav Kumar"
 git config --global user.email "youremail@gmail.com"
 :- Initialize Git repo
-bash
-Copy code
 git init
+
 :- Check file status
-bash
-Copy code
 git status
+
 :- Add files to staging
-bash
-Copy code
 git add file.txt
 git add .
+
 :- Commit changes
-bash
-Copy code
 git commit -m "First commit"
 
 GitHub Basics (Step-by-Step)
@@ -80,41 +73,36 @@ Click New Repository
 Give name → Create
 
 :- Connect Local Repo to GitHub
-bash
-Copy code
 git remote add origin https://github.com/username/repo-name.git
+
 :- Push code to GitHub
-bash
-Copy code
 git branch -M main
 git push -u origin main
-
 Clone, Pull & Push
+
 :- Clone Repo
 bash
 Copy code
 git clone repo-url
+
 :- Pull Latest Changes
 bash
 Copy code
 git pull origin main
+
 :- Push Changes
 bash
 Copy code
 git push origin main
-
 Branching Basics
+
 :- Create new branch
-bash
-Copy code
 git branch feature1
+
 :- Switch branch
-bash
-Copy code
 git checkout feature1
+
 :- Merge branch
-bash
-Copy code
 git checkout main
 git merge feature1
 
