@@ -1,0 +1,51 @@
+What is Linux?
+Linux is an open-source operating system used to run computers, servers, mobiles, cloud systems, and embedded devices.
+
+-> Created by Linus Torvalds (1991)
+-> Based on UNIX
+-> Source code is free and customizable
+-> Very popular in servers, cloud, DevOps, and cybersecurity
+
+Examples of Linux Distributions (Distros):
+-> Ubuntu
+-> CentOS
+-> Red Hat (RHEL)
+-> Debian
+-> Kali Linux
+-> Amazon Linux
+
+Where Linux is used:
+-> Web servers (Google, Facebook, Amazon)
+-> Cloud platforms (AWS, Azure, GCP)
+-> DevOps tools & CI/CD
+-> Supercomputers
+-> Android phones (Android is Linux-based)
+
+Linux vs. Windows
+-------------------Linux-------vs---------------Windows
+Type:	             Open-source------------------Closed-source
+Cost:              Free-------------------------Paid license
+Customization:	   Highly customizable----------Limited
+Security:	         Very secure------------------More virus-prone
+Performance:	     Fast & lightweight-----------Heavier
+Updates:	         User-controlled--------------Forced updates
+CLI Support:	     Very powerful----------------Limited (improving)
+Server usage:	     Very high--------------------Less
+
+
+GUI vs CLI Comparison
+
+	               GUI-----vs-------CLI
+Speed:	         Slow-------------Fast
+Memory usage:    High-------------Low
+Automation:	     Difficult--------Easy
+Server usage:	   Rare-------------Mostly
+DevOps use:   	 Less-------------More
+
+Why DevOps Engineers Mostly Use Linux?
+DevOps engineers mostly use Linux because production servers, cloud platforms, and DevOps tools are Linux-based, and Linux provides powerful CLI, automation, security, and stability.
+
+
+
+
+
